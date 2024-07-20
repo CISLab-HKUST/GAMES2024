@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    h1{
+        @apply text-primary-800 font-extrabold text-2xl p-8 text-center
+    }
+    h2{
+        @apply text-primary-700 font-extrabold text-xl
+    }
+    a
+    {
+        @apply underline underline-offset-4 text-secondary-600 decoration-secondary-600 hover:text-secondary-500 hover:decoration-secondary-500
+    }
+}
+
+@layer components {
+    .container {
+        @apply p-6 mx-auto lg:p-24 sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg;
+        box-shadow: darkgrey 0px 0px 30px 1px; 
+        .teaser {
+            @apply -mt-6 -mx-6 lg:-mt-24 lg:-mx-24
+        }
+    }
+}
