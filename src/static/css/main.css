@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.6 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -645,14 +645,6 @@ a:hover {
   border-width: 0;
 }
 
-.visible {
-  visibility: visible;
-}
-
-.static {
-  position: static;
-}
-
 .fixed {
   position: fixed;
 }
@@ -667,10 +659,6 @@ a:hover {
 
 .left-1\/2 {
   left: 50%;
-}
-
-.left-20 {
-  left: 5rem;
 }
 
 .top-1\/2 {
@@ -703,14 +691,6 @@ a:hover {
   display: block;
 }
 
-.inline-block {
-  display: inline-block;
-}
-
-.inline {
-  display: inline;
-}
-
 .flex {
   display: flex;
 }
@@ -721,10 +701,6 @@ a:hover {
 
 .table {
   display: table;
-}
-
-.contents {
-  display: contents;
 }
 
 .hidden {
@@ -759,16 +735,8 @@ a:hover {
   height: 200px;
 }
 
-.h-\[1px\] {
-  height: 1px;
-}
-
 .h-\[2px\] {
   height: 2px;
-}
-
-.h-\[150px\] {
-  height: 150px;
 }
 
 .max-h-0 {
@@ -785,14 +753,6 @@ a:hover {
 
 .max-h-full {
   max-height: 100%;
-}
-
-.max-h-\[150px\] {
-  max-height: 150px;
-}
-
-.max-h-\[120px\] {
-  max-height: 120px;
 }
 
 .w-1\/5 {
@@ -815,6 +775,10 @@ a:hover {
   width: 60%;
 }
 
+.w-4\/5 {
+  width: 80%;
+}
+
 .w-5 {
   width: 1.25rem;
 }
@@ -830,10 +794,6 @@ a:hover {
 
 .w-full {
   width: 100%;
-}
-
-.w-4\/5 {
-  width: 80%;
 }
 
 .max-w-none {
@@ -882,10 +842,6 @@ a:hover {
 
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.resize {
-  resize: both;
 }
 
 .list-inside {
@@ -953,40 +909,10 @@ a:hover {
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
-.space-x-8 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(2rem * var(--tw-space-x-reverse));
-  margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-y-2 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
-}
-
 .divide-y-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-y-reverse: 0;
   border-top-width: calc(2px * calc(1 - var(--tw-divide-y-reverse)));
   border-bottom-width: calc(2px * var(--tw-divide-y-reverse));
-}
-
-.divide-y-\[1px\] > :not([hidden]) ~ :not([hidden]) {
-  --tw-divide-y-reverse: 0;
-  border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
-  border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
-}
-
-.divide-y > :not([hidden]) ~ :not([hidden]) {
-  --tw-divide-y-reverse: 0;
-  border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
-  border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
-}
-
-.divide-y-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-divide-y-reverse: 0;
-  border-top-width: calc(4px * calc(1 - var(--tw-divide-y-reverse)));
-  border-bottom-width: calc(4px * var(--tw-divide-y-reverse));
 }
 
 .divide-primary-200 > :not([hidden]) ~ :not([hidden]) {
@@ -1019,6 +945,11 @@ a:hover {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
 .bg-primary-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(224 242 254 / var(--tw-bg-opacity));
@@ -1049,15 +980,6 @@ a:hover {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-gray-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
-}
-
-.p-1 {
-  padding: 0.25rem;
-}
-
 .p-2 {
   padding: 0.5rem;
 }
@@ -1083,10 +1005,6 @@ a:hover {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.text-left {
-  text-align: left;
 }
 
 .text-center {
@@ -1150,27 +1068,6 @@ a:hover {
   text-decoration-line: none;
 }
 
-.outline {
-  outline-style: solid;
-}
-
-.blur {
-  --tw-blur: blur(8px);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.filter {
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.transition {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
 .transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1181,20 +1078,12 @@ a:hover {
   transition-duration: 300ms;
 }
 
-.ease-out {
-  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
-}
-
-.\*\:p-8 > * {
-  padding: 2rem;
-}
-
 .\*\:p-2 > * {
   padding: 0.5rem;
 }
 
-.\*\:p-1 > * {
-  padding: 0.25rem;
+.\*\:p-8 > * {
+  padding: 2rem;
 }
 
 .\*\:py-4 > * {
@@ -1297,31 +1186,14 @@ a:hover {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
-
-  .\*\:lg\:w-4\/5 > * {
-    width: 80%;
-  }
 }
 
 .rtl\:space-x-reverse:where([dir="rtl"], [dir="rtl"] *) > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 1;
 }
 
-.\[\&_img\]\:mx-auto img {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.\[\&_img\]\:h-\[150px\] img {
-  height: 150px;
-}
-
 .\[\&_img\]\:max-h-\[120px\] img {
   max-height: 120px;
-}
-
-.\[\&_img\]\:w-auto img {
-  width: auto;
 }
 
 .\[\&_img\]\:max-w-none img {
@@ -1333,34 +1205,10 @@ a:hover {
   margin-right: auto;
 }
 
-@media (min-width: 1024px) {
-  .\[\&_table\]\:lg\:w-4\/5 table {
-    width: 80%;
-  }
-
-  .\[\&_table\]\:lg\:w-5\/6 table {
-    width: 83.333333%;
-  }
-
-  .\[\&_table\]\:lg\:w-\[9\/10\] table {
-    width: 9/10;
-  }
-
-  .\[\&_table\]\:lg\:w-\[90\%\] table {
-    width: 90%;
-  }
-}
-
 .\[\&_td\]\:p-2 td {
   padding: 0.5rem;
 }
 
 .\[\&_th\]\:p-2 th {
   padding: 0.5rem;
-}
-
-.\[\&_tr\]\:space-x-8 tr > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(2rem * var(--tw-space-x-reverse));
-  margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
 }
