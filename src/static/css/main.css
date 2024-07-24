@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.6 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -747,12 +747,20 @@ a:hover {
   max-height: 24rem;
 }
 
+.max-h-\[164px\] {
+  max-height: 164px;
+}
+
 .max-h-\[180px\] {
   max-height: 180px;
 }
 
 .max-h-full {
   max-height: 100%;
+}
+
+.max-h-\[12px\] {
+  max-height: 12px;
 }
 
 .w-1\/5 {
@@ -796,12 +804,20 @@ a:hover {
   width: 100%;
 }
 
+.max-w-\[164px\] {
+  max-width: 164px;
+}
+
 .max-w-none {
   max-width: none;
 }
 
 .max-w-screen-md {
   max-width: 768px;
+}
+
+.max-w-\[180px\] {
+  max-width: 180px;
 }
 
 .grow {
