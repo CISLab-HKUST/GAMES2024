@@ -645,10 +645,6 @@ a:hover {
   border-width: 0;
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
@@ -685,6 +681,10 @@ a:hover {
 
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
 }
 
 .block {
@@ -747,20 +747,12 @@ a:hover {
   max-height: 24rem;
 }
 
-.max-h-\[164px\] {
-  max-height: 164px;
-}
-
 .max-h-\[180px\] {
   max-height: 180px;
 }
 
 .max-h-full {
   max-height: 100%;
-}
-
-.max-h-\[12px\] {
-  max-height: 12px;
 }
 
 .w-1\/5 {
@@ -804,8 +796,8 @@ a:hover {
   width: 100%;
 }
 
-.max-w-\[164px\] {
-  max-width: 164px;
+.max-w-\[160px\] {
+  max-width: 160px;
 }
 
 .max-w-none {
@@ -814,10 +806,6 @@ a:hover {
 
 .max-w-screen-md {
   max-width: 768px;
-}
-
-.max-w-\[180px\] {
-  max-width: 180px;
 }
 
 .grow {
