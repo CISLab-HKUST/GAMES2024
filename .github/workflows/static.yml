@@ -1,5 +1,5 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Rewrite URL and Deploy static content to Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -23,7 +23,7 @@ concurrency:
 
 jobs:
   # Single deploy job since we're just deploying
-  deploy:
+  rewrite-and-deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -31,6 +31,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Rewrite URLs in HTML
+        run: |
+          find ./ -name "./src/*.html" -exec sed -i 's|/static/|https://cislab.hkust-gz.edu.cn/cdn/games2024/|g' {} \;
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
