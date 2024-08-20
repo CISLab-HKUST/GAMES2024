@@ -1132,6 +1132,14 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
   .md\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
