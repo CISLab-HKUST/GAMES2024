@@ -747,6 +747,14 @@ a:hover {
   max-height: 24rem;
 }
 
+.max-h-\[154px\] {
+  max-height: 154px;
+}
+
+.max-h-\[176px\] {
+  max-height: 176px;
+}
+
 .max-h-\[180px\] {
   max-height: 180px;
 }
@@ -794,6 +802,10 @@ a:hover {
 
 .w-full {
   width: 100%;
+}
+
+.max-w-\[140px\] {
+  max-width: 140px;
 }
 
 .max-w-\[160px\] {
@@ -1009,6 +1021,14 @@ a:hover {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .text-center {
